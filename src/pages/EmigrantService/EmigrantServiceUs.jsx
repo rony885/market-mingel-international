@@ -50,17 +50,6 @@ const EmigrantServiceUs = () => {
                   post-arrival orientation.
                 </p>
               </div>
-
-              {/* <div className="mt-40">
-                <Link
-                  to="#"
-                  aria-label="Play Lottery"
-                  title="Play Lottery"
-                  className="btn--primary"
-                >
-                  Play Lottery <i className="ti ti-arrow-narrow-right"></i>
-                </Link>
-              </div> */}
             </div>
           </div>
 

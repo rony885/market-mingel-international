@@ -1,12 +1,6 @@
 import React from "react";
 
 const SignUp = () => {
-  // const fileInputRef = useRef(null);
-
-  // const handleIconClick = () => {
-  //   fileInputRef.current.click(); // Programmatically trigger input click
-  // };
-
   return (
     <section className="authentication pt-120 pb-120">
       <div className="container">
@@ -17,17 +11,6 @@ const SignUp = () => {
               data-aos="fade-right"
               data-aos-duration="600"
             >
-              {/* <div className="authentication__intro">
-                <Link
-                  to="/"
-                  aria-label="back to home"
-                  title="back to home"
-                  className="btn--primary"
-                >
-                  <i className="ti ti-arrow-narrow-left"></i>Back To Home
-                </Link>
-              </div> */}
-
               <div className="authentication__content mt-80">
                 <h4 className="title-animation neutral-top fw-6 mb-10">
                   Let's Do it together!
@@ -78,20 +61,6 @@ const SignUp = () => {
                     </div>
                   </div>
 
-                  {/* <div className="input-wrapper mt-30 password-group">
-                    <label for="authPassword">Your Password</label>
-                    <div className="input-single">
-                      <input
-                        type="password"
-                        name="auth-password"
-                        id="authPassword"
-                        placeholder="Enter password"
-                        required
-                      />
-                      <i className="ti ti-eye-off show-pass"></i>
-                    </div>
-                  </div> */}
-
                   <div className="input-wrapper mt-30 attachment-group">
                     <label htmlFor="authAttachment">Upload Document</label>
                     <div className="input-single">
@@ -104,28 +73,6 @@ const SignUp = () => {
                       <i className="ti ti-paperclip attachment-icon"></i>
                     </div>
                   </div>
-
-                  {/* <div className="input-wrapper mt-30 attachment-group">
-                    <label htmlFor="authAttachment">Upload Document</label>
-                    <div
-                      className="input-single py-3"
-                      style={{ position: "relative" }}
-                    >
-                      <input
-                        type="file"
-                        name="auth-attachment"
-                        id="authAttachment"
-                        ref={fileInputRef}
-                        style={{ display: "none" }} // Hide default input
-                      />
-                      <i
-                        className="ti ti-paperclip attachment-icon"
-                        onClick={handleIconClick}
-                        style={{ cursor: "pointer", fontSize: "20px" }}
-                        title="Click to upload"
-                      ></i>
-                    </div>
-                  </div> */}
 
                   {/* <p className="create-msg mt-20">
                     Have an account? <Link to="/sign-in">Sign In</Link>

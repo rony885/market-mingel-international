@@ -21,10 +21,7 @@ const EmigrantServiceUsOthers = () => {
                 <span className="fw-6 secondary-text text-xl">
                   <strong>Our</strong> speciality
                 </span>
-                {/* <p className="mt-25">
-                  We are more than just a manpower agency — we are a complete
-                  visa, procurement, and travel solution provider.
-                </p> */}
+
                 <p className="mt-25 mb-0">
                   Our visa team specializes in:{" "}
                   <ul

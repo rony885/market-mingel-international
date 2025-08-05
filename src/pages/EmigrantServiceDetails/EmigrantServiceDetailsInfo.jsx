@@ -36,10 +36,7 @@ const EmigrantServiceDetailsInfo = () => {
                     {findServiceDetails && findServiceDetails.title} (&nbsp;
                     {findServiceDetails && findServiceDetails.category}&nbsp;)
                   </h5>
-                  {/* <p className="mt-20">Jod Conditions:</p>
-                  <p className="mt-20">
-                    {findServiceDetails && findServiceDetails.jodConditions}
-                  </p> */}
+              
                 </div>
               </div>
               <div className="details__content mt-40 mb-40">
@@ -50,9 +47,7 @@ const EmigrantServiceDetailsInfo = () => {
                 data-aos="fade-up"
                 data-aos-duration="600"
               >
-                {/* <h6 class="title-animation neutral-top fw-6 text-capitalize mb-0">
-                  Jod Conditions:
-                </h6> */}
+                
                 <p className="mb-0">
                   Visa Type: {findServiceDetails && findServiceDetails.visaType}
                 </p>
@@ -61,9 +56,7 @@ const EmigrantServiceDetailsInfo = () => {
                   {findServiceDetails && findServiceDetails.processingTime}
                 </p>
 
-                {/* <h6 class="title-animation neutral-top fw-6 text-capitalize mb-0">
-                  Jod Conditions:
-                </h6> */}
+             
                 <p className="mb-4">
                   {findServiceDetails && findServiceDetails.jodConditions}
                 </p>

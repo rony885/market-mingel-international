@@ -83,38 +83,6 @@ const EmigrantServiceTeam = () => {
   );
 };
 
-// const Wrapper = styled.section`
-//   .team-card-wrapper {
-//     max-width: 1000px;
-//     margin: 0 auto;
-//   }
-
-//   .card-box {
-//     width: 100%;
-//     max-width: 400px;
-//     background-color: var(--tertiary-color);
-//     border: 1px solid var(--septenary-color);
-//     border-radius: 12px;
-//     padding: 24px 20px;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//   }
-
-//   .card-image {
-//     height: 350px;
-//     width: 100%;
-//     object-fit: cover;
-//     border-radius: 12px;
-//   }
-
-//   @media (max-width: 768px) {
-//     .card-box {
-//       max-width: 100%;
-//     }
-//   }
-// `;
-
 const Wrapper = styled.section`
   .team-card-wrapper {
     max-width: 1000px;

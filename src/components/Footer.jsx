@@ -9,10 +9,10 @@ const Footer = () => {
     <Wrapper>
       <footer
         className="footer"
-        style={{ marginTop: "0px" }}
-        // style={{
-        //   backgroundImage: "url('/assets/images/footer/footer-bg-two.png')",
-        // }}
+        style={{
+          backgroundImage: "url('/assets/images/footer/footer-bg-two.png')",
+          marginTop: "0px",
+        }}
       >
         <div className="container">
           <div
@@ -35,7 +35,7 @@ const Footer = () => {
                   </Link>
                 </div>
                 <div className="footer__widget-content mt-25">
-                  <p >
+                  <p>
                     MarketMingl International is a Bangladesh-based
                     multi-service global consultancy offering trusted support
                     for individuals and organizations
@@ -202,11 +202,6 @@ const Footer = () => {
                         <li>
                           <span></span>
                         </li>
-                        {/* <li>
-                          <Link to="/particular-duties-responsibilities">
-                            Particular Duties & Res...
-                          </Link>
-                        </li> */}
                         <li>
                           <span></span>
                         </li>
