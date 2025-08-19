@@ -10,9 +10,7 @@ const Footer = () => {
       <footer
         className="footer"
         style={{ marginTop: "0px" }}
-        // style={{
-        //   backgroundImage: "url('/assets/images/footer/footer-bg-two.png')",
-        // }}
+    
       >
         <div className="container">
           <div

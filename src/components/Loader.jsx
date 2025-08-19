@@ -1,27 +1,11 @@
-// import React from "react";
-
-// const Loader = () => {
-//   return (
-//     <div className="preloader">
-//       <i className="ti ti-device-gamepad-2"></i>
-//       <p>Market Mingel International</p>
-//     </div>
-//   );
-// };
-
-// export default Loader;
-
 import React from "react";
 import styled from "styled-components";
 
 const Loader = () => {
   return (
     <Wrapper>
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
+      <div className="rocket">🚀</div>
+      <div className="flames"></div>
     </Wrapper>
   );
 };
@@ -30,40 +14,42 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   background-color: #0e121d;
 
-  .bar {
-    width: 10px;
+  .rocket {
+    font-size: 5rem;
+    animation: float 1.5s infinite ease-in-out;
+  }
+
+  .flames {
+    width: 20px;
     height: 40px;
-    margin: 0 5px;
-    background-color: #9cecfe;
-    animation: wave 1.2s infinite ease-in-out;
+    background: radial-gradient(circle at top, #ff6b6b, #ffb347);
+    border-radius: 50% 50% 50% 50%;
+    animation: flame 0.4s infinite alternate;
+    margin-top: -10px;
   }
 
-  .bar:nth-child(1) {
-    animation-delay: 0s;
-  }
-  .bar:nth-child(2) {
-    animation-delay: 0.1s;
-  }
-  .bar:nth-child(3) {
-    animation-delay: 0.2s;
-  }
-  .bar:nth-child(4) {
-    animation-delay: 0.3s;
-  }
-  .bar:nth-child(5) {
-    animation-delay: 0.4s;
-  }
-
-  @keyframes wave {
+  @keyframes float {
     0%,
     100% {
-      transform: scaleY(0.3);
+      transform: translateY(0);
     }
     50% {
-      transform: scaleY(1);
+      transform: translateY(-20px);
+    }
+  }
+
+  @keyframes flame {
+    0% {
+      transform: scaleY(0.8);
+      opacity: 0.8;
+    }
+    100% {
+      transform: scaleY(1.2);
+      opacity: 1;
     }
   }
 `;
